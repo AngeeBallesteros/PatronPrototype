@@ -43,23 +43,23 @@ public class CrearChaquetas {
     tipo4.setTalla("L");
     }
     
-     public Chaqueta clonarChaquetas(Integer tipoChaqueta) {
+     public Chaquetas clonarChaquetas(Integer tipoChaqueta) {
          
             switch (tipoChaqueta){
          case 1: 
            
-             return (Chaqueta) tipo1.clone();
+             return (Chaquetas) tipo1.clone();
              
          case 2:  
-             return (Chaqueta) tipo2.clone();
+             return (Chaquetas) tipo2.clone();
              
              
           case 3:  
-             return (Chaqueta) tipo3.clone();
+             return (Chaquetas) tipo3.clone();
             
              
            case 4:  
-             return (Chaqueta) tipo4.clone();
+             return (Chaquetas) tipo4.clone();
             
              
            default:

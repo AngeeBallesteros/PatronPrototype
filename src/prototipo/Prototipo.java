@@ -21,7 +21,7 @@ public class Prototipo {
          System.out.println("Bienvenido \n Si desea ver todas las chaquetas con sus datos ingrese 0 si desea ver una chaqueta en particular ingrese 1");
         Scanner sc = new Scanner(System.in);
         CrearChaquetas crearChaquetas= new CrearChaquetas();
-        Chaqueta[] chaqueta=new Chaqueta[4];
+        Chaquetas[] chaqueta=new Chaquetas[4];
         for (int i = 0; i <= 3; i++) {
             chaqueta[i]=crearChaquetas.clonarChaquetas(i+1);
            }

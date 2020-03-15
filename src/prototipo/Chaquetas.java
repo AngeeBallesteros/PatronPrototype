@@ -9,7 +9,7 @@ package prototipo;
  *
  * @author estudiantes
  */
-public abstract class Chaqueta implements Cloneable{
+public abstract class Chaquetas implements Cloneable{
     
     private String tipo;
     private String talla;
@@ -52,13 +52,13 @@ public abstract class Chaqueta implements Cloneable{
  
         @Override
 
-    public Chaqueta clone() {
+    public Chaquetas clone() {
 
-        Chaqueta pChaqueta = null;
+        Chaquetas pChaqueta = null;
 
         try {
 
-            pChaqueta=(Chaqueta) super.clone();
+            pChaqueta=(Chaquetas) super.clone();
         pChaqueta.setTipo(tipo);
         pChaqueta.setColor(color);
         pChaqueta.setMaterial(material);
