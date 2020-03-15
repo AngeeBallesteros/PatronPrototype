@@ -5,7 +5,7 @@
  */
 package prototipo;
 
-public class Tipo2 extends Chaquetas {
+public class Tipo2 extends Chaqueta {
    public Tipo2(){
         
     }   
